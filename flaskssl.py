@@ -8,6 +8,6 @@ def hello_world():
 
 if __name__ == '__main__':
 
-    app.run('0.0.0.0', debug=True, port=8443, ssl_context=('host.crt', 'host.key'))
-    # app.run('0.0.0.0', debug=True, port=8443,
-    #     ssl_context='adhoc')
+    #app.run('0.0.0.0', debug=True, port=8443, ssl_context=('host.crt', 'host.key'))
+    app.run('0.0.0.0', debug=True, port=8443,
+         ssl_context='adhoc')
